@@ -103,7 +103,6 @@ table.o_section_and_note_list_view tr.o_data_row.o_is_line_section, div.oe_kanba
   display:none !important;
 }
 
-
 /* Full width modal on mobile */
 @media (max-width: 768px) {
   .modal-lg {
