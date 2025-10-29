@@ -1,4 +1,4 @@
-odoo.define('v17.dynamic_css', function (require) {
+odoo.define('v17.dynamic_css', ['web.core', 'web.rpc'], function (require) {
     'use strict';
 
     var core = require('web.core');
