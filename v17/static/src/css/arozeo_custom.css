@@ -92,13 +92,13 @@ table.o_section_and_note_list_view tr.o_data_row.o_is_line_section, div.oe_kanba
 
 .o_cell > .o_required_modifier
 {
-  background-color:#ebf5fd;
-  padding-left:0.3rem;
-  border-radius: 0.2rem;
+  background-color:#ebf5fd !important;
+  padding-left:0.3rem !important;
+  border-radius: 0.2rem !important;
 }
 
 /* Hide CRM gamification */
 
 .o_reward {
-  display:none;
+  display:none !important;
 }
