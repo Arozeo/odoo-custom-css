@@ -10,7 +10,7 @@
     'depends': ['base'],  # List of dependencies
     'assets': {
         'web.assets_backend': [
-            'arozeo_v17_custom_css_avi/static/src/js/dynamic_css.js',
+            'v17/static/src/js/dynamic_css.js',
         ]
     },
     'installable': True,  # Indicates if the module can be installed

@@ -1,4 +1,4 @@
-odoo.define('arozeo_v17_custom_css_avi.dynamic_css', function (require) {
+odoo.define('v17.dynamic_css', function (require) {
     'use strict';
 
     var core = require('web.core');
