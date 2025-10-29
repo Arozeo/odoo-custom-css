@@ -9,7 +9,7 @@
     'license': 'LGPL-3',
     'depends': ['web'],  # List of dependencies
     'assets': {
-        'web.assets_common': [
+        'web.assets_backend': [
             'v17/static/src/js/dynamic_css.js',
         ]
     },
