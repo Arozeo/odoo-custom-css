@@ -7,9 +7,9 @@
     'author': 'Eliott Charbonneau - Arozeo',
     'website': 'https://arozeo.fr',
     'license': 'LGPL-3',
-    'depends': ['base'],  # List of dependencies
+    'depends': ['web'],  # List of dependencies
     'assets': {
-        'web.assets_backend': [
+        'web.assets_common': [
             'v17/static/src/js/dynamic_css.js',
         ]
     },
