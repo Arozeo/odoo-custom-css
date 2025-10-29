@@ -1,8 +1,8 @@
 {
-    'name': 'AVI Custom CSS',
+    'name': 'Arozeo Custom CSS',
     'version': '1.0.0',
-    'summary': 'Insert AVI Custom CSS directly into Odoo',
-    'description': "Insert AVI Custom CSS directly into Odoo",
+    'summary': 'Insert Arozeo Custom CSS directly into Odoo',
+    'description': "Insert Arozeo Custom CSS directly into Odoo",
     'category': 'Custom CSS',
     'author': 'Eliott Charbonneau - Arozeo',
     'website': 'https://arozeo.fr',
