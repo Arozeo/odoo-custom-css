@@ -1,0 +1,104 @@
+/* Full-with Documents */
+
+.o_form_renderer
+{
+  flex-direction: column !important;
+}
+
+.o_form_sheet_bg
+{
+  width: 100% !important;
+  max-width: 100% !important;
+  overflow: visible !important;
+  flex:none !important;
+}
+
+.o_form_sheet
+{
+  width:100% !important;
+}
+
+.o-mail-Form-chatter
+{
+  width: 100% !important;
+  margin-top:2% !important;
+}
+
+.o_attachment_preview
+{
+  width:50% !important;
+  min-height:100% !important;
+  margin:auto !important;
+}
+
+.modal-lg
+{
+  max-width:50% !important;
+}
+
+/* Colored and Enhanced Buttons */
+
+button[aria-label="Ignorer les changements"] {
+  margin-left: 2rem !important;
+  padding:0.3rem 0.5rem 0.3rem 0.5rem !important;
+  color:#E53935 !important;
+  background-color:#FFCDD2 !important;
+}
+
+button[aria-label="Ignorer les changements"]::after {
+  content:" Annuler tout" !important;
+}
+
+button[aria-label="Enregistrer manuellement"] {
+  margin-left: 0.5rem !important;
+  padding:0.3rem 0.5rem 0.3rem 0.5rem !important;
+  color:#43A047 !important;
+  background-color:#DCEDC8 !important;
+}
+
+button[aria-label="Enregistrer manuellement"]::after {
+  content:" Enregistrer manuellement" !important;
+}
+
+/* Notes and Sections */
+
+.o_is_line_section > .o_data_cell
+{
+  background-color: #50658f !important;
+  font-weight:bold;
+  text-transform: uppercase;
+  color:white !important;
+}
+
+.o_is_line_note > .o_data_cell
+{
+  background-color:#f7fdff !important;
+  color:#1cb2fc !important;
+  font-weight:500 !important;
+  font-style:normal !important;
+}
+
+.o_is_line_note > .o_section_and_note_text_cell > .o_field_widget::before {
+  content: "ℹ️" !important;
+  margin-right: 0.3rem !important;
+}
+
+table.o_section_and_note_list_view tr.o_data_row.o_is_line_section, div.oe_kanban_card.o_is_line_section
+{
+    background-color:none !important;
+}
+
+/* Required fields */
+
+.o_cell > .o_required_modifier
+{
+  background-color:#ebf5fd;
+  padding-left:0.3rem;
+  border-radius: 0.2rem;
+}
+
+/* Hide CRM gamification */
+
+.o_reward {
+  display:none;
+}
