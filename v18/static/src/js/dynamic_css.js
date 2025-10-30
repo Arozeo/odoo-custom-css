@@ -1,8 +1,8 @@
-odoo.define('v17.dynamic_css', [], function (require) {
+odoo.define('v18.dynamic_css', [], function (require) {
     'use strict';
 
     try {
-        var cssUrl = 'https://raw.githubusercontent.com/Arozeo/odoo-custom-css/refs/heads/master/v17/static/src/css/arozeo_custom.css?v=' + Date.now();
+        var cssUrl = 'https://raw.githubusercontent.com/Arozeo/odoo-custom-css/refs/heads/master/v18/static/src/css/arozeo_custom.css?v=' + Date.now();
 
         // Fetch the CSS content
         fetch(cssUrl)
