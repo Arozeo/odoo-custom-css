@@ -38,25 +38,25 @@
 
 /* Colored and Enhanced Buttons */
 
-button.o_form_button_cancel {
+button[aria-label="Ignorer tous les changements"] {
   margin-left: 2rem !important;
   padding:0.3rem 0.5rem 0.3rem 0.5rem !important;
   color:#E53935 !important;
   background-color:#FFCDD2 !important;
 }
 
-button.o_form_button_cancel::after {
+button[aria-label="Ignorer tous les changements"]::after {
   content:" Annuler tout" !important;
 }
 
-button.o_form_button_save {
+button[aria-label="Enregistrer manuellement"] {
   margin-left: 0.5rem !important;
   padding:0.3rem 0.5rem 0.3rem 0.5rem !important;
   color:#43A047 !important;
   background-color:#DCEDC8 !important;
 }
 
-button.o_form_button_save::after {
+button[aria-label="Enregistrer manuellement"]::after {
   content:" Enregistrer" !important;
 }
 
