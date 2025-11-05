@@ -57,7 +57,7 @@ button.o_form_button_save {
 }
 
 button.o_form_button_save::after {
-  content:" Enregistrer manuellement" !important;
+  content:" Enregistrer" !important;
 }
 
 /* Notes and Sections */
