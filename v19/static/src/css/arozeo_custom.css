@@ -38,25 +38,25 @@
 
 /* Colored and Enhanced Buttons */
 
-button[class="o_form_button_cancel"] {
+button.o_form_button_cancel {
   margin-left: 2rem !important;
   padding:0.3rem 0.5rem 0.3rem 0.5rem !important;
   color:#E53935 !important;
   background-color:#FFCDD2 !important;
 }
 
-button[class="o_form_button_cancel"]::after {
+button.o_form_button_cancel::after {
   content:" Annuler tout" !important;
 }
 
-button[class="o_form_button_save"] {
+button.o_form_button_save {
   margin-left: 0.5rem !important;
   padding:0.3rem 0.5rem 0.3rem 0.5rem !important;
   color:#43A047 !important;
   background-color:#DCEDC8 !important;
 }
 
-button[class="o_form_button_save"]::after {
+button.o_form_button_save::after {
   content:" Enregistrer manuellement" !important;
 }
 
