@@ -110,3 +110,9 @@ table.o_section_and_note_list_view tr.o_data_row.o_is_line_section, div.oe_kanba
   max-width: 100% !important;
   }
 }
+
+/* Hide Button in Gantt Pop-over */
+
+.popover-footer button:nth-child(2) {
+    display: none !important;
+}
