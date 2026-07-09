@@ -69,7 +69,7 @@ button[aria-label="Enregistrer manuellement"]::after {
 }
 
 .o_is_line_section > .o_data_cell textarea {
-  font-weight:bold !important;
+  font-weight:500 !important;
   text-transform: uppercase !important;
   font-style:normal !important;
 }
@@ -86,7 +86,7 @@ button[aria-label="Enregistrer manuellement"]::after {
   font-style:normal !important;
 }
 
-.o_is_line_note > .o_data_cell > .o_field_widget > o_field_product_label_section_and_note_cell::before
+.o_is_line_note > .o_data_cell > .o_field_widget::before
 {
   content: "ℹ️" !important;
   margin-right: 0.3rem !important;
