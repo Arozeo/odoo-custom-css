@@ -1,4 +1,4 @@
-/* Full-with Documents */
+/* Documents pleine largeur */
 
 .o_form_renderer
 {
@@ -36,7 +36,7 @@
   max-width:50% !important;
 }
 
-/* Colored and Enhanced Buttons */
+/* Boutons Valider/Annuler colorés */
 
 button[aria-label="Ignorer tous les changements"] {
   margin-left: 2rem !important;
@@ -60,7 +60,7 @@ button[aria-label="Enregistrer manuellement"]::after {
   content:" Enregistrer" !important;
 }
 
-/* Notes and Sections */
+/* Sections */
 
 .o_is_line_section > .o_data_cell
 {
@@ -68,11 +68,14 @@ button[aria-label="Enregistrer manuellement"]::after {
   color:white !important;
 }
 
-.o_is_line_section > .o_data_cell > .o_field_text {
+.o_is_line_section > .o_data_cell > .o_field_text, .o_is_line_section > .o_data_cell > .o_field_product_label_section_and_note_cell
+{
   font-weight:500 !important;
   text-transform: uppercase !important;
   font-style:normal !important;
 }
+
+/* Notes */
 
 .o_is_line_note > .o_data_cell
 {
@@ -86,7 +89,7 @@ button[aria-label="Enregistrer manuellement"]::after {
   font-style:normal !important;
 }
 
-.o_is_line_note > .o_data_cell > .o_field_text::before
+.o_is_line_note > .o_data_cell > .o_field_text::before, .o_is_line_note > .o_data_cell > .o_field_product_label_section_and_note_cell::before
 {
   content: "ℹ️" !important;
   margin-right: 0.3rem !important;
@@ -98,7 +101,7 @@ table.o_section_and_note_list_view tr.o_data_row.o_is_line_section, div.oe_kanba
     background-color:none !important;
 }
 
-/* Required fields */
+/* Champs requis */
 
 .o_cell > .o_required_modifier
 {
@@ -106,26 +109,3 @@ table.o_section_and_note_list_view tr.o_data_row.o_is_line_section, div.oe_kanba
   padding-left:0.3rem !important;
   border-radius: 0.2rem !important;
 }
-
-/* Truncate Description field in SO without impacting Notes*/
-
-/* OPTIONAL
-
-.o_field_product_label_section_and_note_cell {
-  height:auto !important;
-}
-
-.o_data_cell .o_field_product_label_section_and_note_cell > textarea {
-  width: 100% !important;
-  overflow: hidden !important;
-  white-space: nowrap !important;
-  max-height:1.5rem;
-}
-
-.o_data_cell .o_field_product_label_section_and_note_cell > textarea:focus {
-  white-space: normal !important;
-  overflow: auto !important;
-  max-height:50rem;
-}
-
-*/
